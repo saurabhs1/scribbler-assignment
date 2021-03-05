@@ -1,22 +1,22 @@
 var createPostModal = document.getElementById("createPostModal");
 
-//Search for create post button
+// Search for create post button
 var createPostBtn   = document.getElementById("createPostBtn");
 
-//Search close button
+// Search close button
 var closeCreatePost = document.getElementById("closeCreatePost");
 
-//Open the modal
+// Open the modal
 openModal = modal => {
     modal.style.display = "block";
 };
 
-//Close the modal
+// Close the modal
 closeModal = modal => {
     modal.style.display = "none";
 };
 
-//Add events to the buttons
+// Add events to the buttons
 createPostBtn.addEventListener("click", () => openModal(createPostModal));
 closeCreatePost.addEventListener("click", () => closeModal(createPostModal));
 

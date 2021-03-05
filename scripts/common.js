@@ -29,7 +29,7 @@ signUpBtn.addEventListener("click", () => openModal(signUpModal));
 closeSignUp.addEventListener("click", () => closeModal(signUpModal));
 closeSignIn.addEventListener("click", () => closeModal(signInModal));
 
-//Event to handle the click on outer area which closes the modal
+// Event to handle the click on outer area which closes the modal
 window.addEventListener("click", function(event) {
   if (event.target == signUpModal) {
     signUpModal.style.display = "none";
